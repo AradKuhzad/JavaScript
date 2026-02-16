@@ -41,5 +41,8 @@ function value() {
   y = 3;
   z = x * y;
   document.getElementsByClassName("text-value")[0].innerHTML =
+  "The value of z is " + z;
 }
+value();
+
 
