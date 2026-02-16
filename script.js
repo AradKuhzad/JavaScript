@@ -45,4 +45,7 @@ function value() {
 }
 value();
 
+function Sns() {
+}
+Sns();
 
