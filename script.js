@@ -46,6 +46,9 @@ function value() {
 value();
 
 function Sns() {
+  let person = "James", carName = "Mercedes", age = "25";
+  document.getElementById("doe-Specifications").innerHTML = 
+  carName
 }
 Sns();
 
