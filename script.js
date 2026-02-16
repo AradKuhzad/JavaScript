@@ -35,3 +35,11 @@ function sorttext() {
 }
 sorttext();
 
+function value() {
+  let x, y, z;
+  x = 7;
+  y = 3;
+  z = x * y;
+  document.getElementsByClassName("text-value")[0].innerHTML =
+}
+
