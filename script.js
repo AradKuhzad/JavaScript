@@ -55,6 +55,8 @@ Sns();
 function xyzepl() {
   let carName = "Volvo";
   const fname = "Dan";
+  const Lname = "Murphy";
+  let carcolor = "black";
 }
 xyzepl();
 
