@@ -57,6 +57,9 @@ function xyzepl() {
   const fname = "Dan";
   const Lname = "Murphy";
   let carcolor = "black";
+  console.log(fname + Lname);
+  document.getElementById("Dan-car").innerHTML =
+  carName;
 }
 xyzepl();
 
