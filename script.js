@@ -52,6 +52,9 @@ function Sns() {
 }
 Sns();
 
+function xyzepl() {
+  let carName = "Volvo";
+  const fname = "Dan";
 }
 xyzepl();
 
