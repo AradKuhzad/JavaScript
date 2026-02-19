@@ -65,6 +65,8 @@ xyzepl();
 
 
 function cnt() {
+  const User = {name: "Dan"};
 }
+cnt();
 
 
