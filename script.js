@@ -70,6 +70,7 @@ function cnt() {
   const cars = ["Fiat", "BMW", "Mercedes"]; 
   cars[1] = "Volvo";
   cars.push("Toyota");
+  console.log(cars);
 }
 cnt();
 
