@@ -68,6 +68,8 @@ function cnt() {
   const User = {name: "Dan"};
   User.name = "James";
   console.log(User.name);
+  const cars = ["Fiat", "BMW", "Mercedes"]; 
+  cars[1] = "Volvo";
 }
 cnt();
 
