@@ -137,6 +137,10 @@ exle();
 function Dateday() {
   let day;
   let date = new Date().getDay();
+  switch (date) {
+    case 0:
+    day = "Sunday";
+    break;
 }
 Dateday();
 
