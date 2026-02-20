@@ -2,15 +2,16 @@ body {
     background-color: rgb(255, 246, 246);
 }
 
-#picture-lamp {
-    width: 130px;
-    height: 180px;
-}
-
 #change-fontsize {
     font-size: 18px;
 }
 
 #show-text {
     display: none;
+}
+
+#picture-lamp {
+    cursor: pointer;
+    width: 130px;
+    height: 180px;
 }
