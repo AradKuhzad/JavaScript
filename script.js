@@ -170,6 +170,10 @@ function Changepicture() {
 }
 
 function Changepicture2() {
+  const img = document.getElementById("picture-lamp");
+  const slider = document.getElementById("brightnessSlider");
+  slider.addEventListener("input", () => {
+    img.style.filter = `brightness(${slider.value}%)`;
   });
 }
 Changepicture2();
