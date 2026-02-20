@@ -117,6 +117,7 @@ function checkAgeCategory() {
   else if (age >= 65 && age <= 109) {
     Category = "Older age";
   }
+  else if (age >= 110) {
   else {
     Category = "Your age is invalid!";
   }
