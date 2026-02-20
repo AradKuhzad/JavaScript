@@ -157,9 +157,24 @@ function Dateday() {
   "Today is " + day;
 }
 Dateday();
+
+
 function Changepicture() {
   let img = document.getElementById("picture-lamp");
   if (img.src.includes("pic_bulboff.gif")) {
+    img.src = "img/pic_bulbon.gif";
+  }
+  else {
+    img.src = "img/pic_bulboff.gif";
+  }
+}
+
+function Changepicture2() {
+  });
+}
+Changepicture2();
+
+
 
 
 
