@@ -92,6 +92,8 @@ function OPors() {
   console.log(x == y);
   console.log(x);
   console.log(y);
+  console.log(x != y);
+  console.log(x > y);
 }
 OPors();
 }
