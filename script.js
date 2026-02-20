@@ -117,6 +117,9 @@ function checkAgeCategory() {
   else if (age >= 65) {
     Category = "Older age";
   }
+  else {
+    Category = "Your age is invalid!";
+  }
   document.getElementById("result").innerHTML = 
   Category;
 }
