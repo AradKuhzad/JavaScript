@@ -111,6 +111,9 @@ function checkAgeCategory() {
   else if (age >= 13 && age <= 18) {
     Category = "Youth";
   } 
+  else if (age >= 19 && age <= 64) {
+    Category = "Adults";
+  }
   document.getElementById("result").innerHTML = 
   Category;
 }
