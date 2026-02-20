@@ -141,6 +141,9 @@ function Dateday() {
     case 0:
     day = "Sunday";
     break;
+    case 1:
+    day = "Monday";
+    break;
 }
 Dateday();
 
