@@ -101,7 +101,6 @@ function OPors() {
 OPors();
 
 
-
 function checkAgeCategory() {
   let age = parseInt(document.getElementById("ageInput").value);
   let Category = "";
@@ -164,5 +163,6 @@ function Dateday() {
   "Today is " + day;
 }
 Dateday();
+
 
 
