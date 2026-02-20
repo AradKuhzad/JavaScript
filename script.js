@@ -134,5 +134,10 @@ function exle() {
 }
 exle();
 
+function Dateday() {
+  let day;
+  let date = new Date().getDay();
+}
+Dateday();
 
 
