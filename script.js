@@ -160,6 +160,9 @@ function Dateday() {
     day = "Saturday";
     break;
   }
+  document.getElementById("Date").innerHTML = 
+  "Today is " + day;
+}
 Dateday();
 
 
