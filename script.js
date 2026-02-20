@@ -118,6 +118,8 @@ function checkAgeCategory() {
     Category = "Older age";
   }
   else if (age >= 110) {
+    Category = "Are you even alive?";
+  }
   else {
     Category = "Your age is invalid!";
   }
