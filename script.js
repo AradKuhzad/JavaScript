@@ -157,6 +157,9 @@ function Dateday() {
   "Today is " + day;
 }
 Dateday();
+function Changepicture() {
+  let img = document.getElementById("picture-lamp");
+  if (img.src.includes("pic_bulboff.gif")) {
 
 
 
