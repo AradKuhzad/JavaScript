@@ -128,6 +128,9 @@ function checkAgeCategory() {
 }
 
 function exle() {
+  let x = 17;
+  let text = (x >= 18) ? "Hi" : "Bye";
+  console.log(text);
 }
 exle();
 
