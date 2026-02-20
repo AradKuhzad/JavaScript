@@ -148,6 +148,8 @@ function Dateday() {
     day = "Tuesday";
     break;
     case 3:
+    day = "Wednesday";
+    break;
 }
 Dateday();
 
