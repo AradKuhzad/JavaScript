@@ -102,6 +102,11 @@ OPors();
 
 
 
+function checkAgeCategory() {
+  let age = parseInt(document.getElementById("ageInput").value);
+  let Category = "";
+  document.getElementById("result").innerHTML = 
+  Category;
 }
 
 
