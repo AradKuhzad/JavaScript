@@ -156,7 +156,10 @@ function Dateday() {
     case 5:
     day = "Friday";
     break;
-}
+    case 6:
+    day = "Saturday";
+    break;
+  }
 Dateday();
 
 
