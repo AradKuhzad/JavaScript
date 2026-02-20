@@ -105,6 +105,9 @@ OPors();
 function checkAgeCategory() {
   let age = parseInt(document.getElementById("ageInput").value);
   let Category = "";
+  if (age >= 0 && age <= 12) {
+    Category = "Early years";
+  }
   document.getElementById("result").innerHTML = 
   Category;
 }
