@@ -179,6 +179,3 @@ function Changepicture2() {
 Changepicture2();
 
 
-
-
-
