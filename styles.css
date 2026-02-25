@@ -17,6 +17,10 @@ body {
 }
 
 #text-Clicktuof {
+#text-Clicktuof:hover {
+    background-color: rgb(159, 156, 154);
+}
+
 .on {
     background-color: rgb(255, 154, 91) !important;
 }
