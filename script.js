@@ -183,6 +183,7 @@ function Changepicturebutton() {
   let text = document.getElementById("text-Clicktuof");
   if (img.src.includes("pic_bulboff.gif")) {
     img.src = "img/pic_bulbon.gif";
+    document.getElementById("text-Clicktuof").innerHTML = 
     "Click to turn off the light.";
     text.classList.remove("off");
     text.classList.add("on");
