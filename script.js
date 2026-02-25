@@ -180,6 +180,9 @@ Changepicture2();
 
 function Changepicturebutton() {
   let img = document.getElementById("picture-lamp");
+    text.classList.add("on");
+    
+  }
   else {
     img.src = "img/pic_bulboff.gif";
     document.getElementById("text-Clicktuof").innerHTML = 
