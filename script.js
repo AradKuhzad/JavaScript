@@ -177,3 +177,14 @@ function Changepicture2() {
   });
 }
 Changepicture2();
+
+function Changepicturebutton() {
+  let img = document.getElementById("picture-lamp");
+  else {
+    img.src = "img/pic_bulboff.gif";
+    document.getElementById("text-Clicktuof").innerHTML = 
+    "Click to turn on the light.";
+    text.classList.remove("on");
+    text.classList.add("off");
+  }
+}
