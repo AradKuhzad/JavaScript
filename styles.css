@@ -20,6 +20,10 @@ body {
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     border-radius: 50px;
+    padding: 5px;
+    border: 1px solid rgb(63, 44, 44);
+    background-color: rgb(189, 186, 184);
+    transition: 0.3s;
 }
 #text-Clicktuof:hover {
     background-color: rgb(159, 156, 154);
