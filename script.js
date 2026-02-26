@@ -199,5 +199,7 @@ function Changepicturebutton() {
 
 function testloop() {
   let i;
+  for (let i = 0; i < 5; i++) {
+  }
 }
 testloop();
