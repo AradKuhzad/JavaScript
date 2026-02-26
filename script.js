@@ -198,5 +198,6 @@ function Changepicturebutton() {
 }
 
 function testloop() {
+  let i;
 }
 testloop();
