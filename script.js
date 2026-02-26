@@ -158,7 +158,6 @@ function Dateday() {
 }
 Dateday();
 
-
 function Changepicture() {
   let img = document.getElementById("picture-lamp");
   if (img.src.includes("pic_bulboff.gif")) {
@@ -187,7 +186,7 @@ function Changepicturebutton() {
     "Click to turn off the light.";
     text.classList.remove("off");
     text.classList.add("on");
-    
+
   }
   else {
     img.src = "img/pic_bulboff.gif";
@@ -197,3 +196,7 @@ function Changepicturebutton() {
     text.classList.add("off");
   }
 }
+
+function testloop() {
+}
+testloop();
