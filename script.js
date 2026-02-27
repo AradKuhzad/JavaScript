@@ -255,3 +255,21 @@ function squares3() {
   }
 }
 squares3()
+
+function squares4() {
+  let container = document.getElementById("squares-5");
+
+  for (let i = 0; i < 83; i++) {
+    container.innerHTML += `<div class="squares-5"></div>`;
+  }
+}
+squares4()
+
+function squares5() {
+  let container = document.getElementById("squares-6");
+
+  for (let i = 0; i < 83; i++) {
+    container.innerHTML += `<div class="squares-6"></div>`;
+  }
+}
+squares5()
