@@ -219,3 +219,10 @@ function testloop() {
   }
 }
 testloop();
+function squares() {
+  let container = document.getElementById("squares");
+
+  for (let i = 0; i < 83; i++) {
+    container.innerHTML += `<div class="squares"></div>`;
+  }
+}
