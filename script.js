@@ -246,3 +246,12 @@ function squares2() {
   }
 }
 squares2();
+
+function squares3() {
+  let container = document.getElementById("squares-4");
+
+  for (let i = 0; i < 83; i++) {
+    container.innerHTML += `<div class="squares-4"></div>`;
+  }
+}
+squares3()
