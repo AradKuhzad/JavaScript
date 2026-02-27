@@ -219,6 +219,7 @@ function testloop() {
   }
 }
 testloop();
+
 function squares() {
   let container = document.getElementById("squares");
 
@@ -226,3 +227,4 @@ function squares() {
     container.innerHTML += `<div class="squares"></div>`;
   }
 }
+squares();
