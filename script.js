@@ -197,6 +197,21 @@ function Changepicturebutton() {
   }
 }
 
+let offon = 0;
+function testswitch1() {
+  let lampoff = document.getElementById("picture-lamp");
+  switch (offon) {
+  case 0:
+    lampoff.src = "img/pic_bulbon.gif";
+    offon = 1;
+    break;
+  case 1:
+    lampoff.src = "img/pic_bulboff.gif"; 
+  offon = 0;
+  break;
+}
+}
+
 function testloop() {
   let i;
   for (let i = 0; i < 5; i++) {
