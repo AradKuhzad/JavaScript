@@ -228,3 +228,12 @@ function squares() {
   }
 }
 squares();
+
+function squares1() {
+  let container = document.getElementById("squares-2");
+
+  for (let i = 0; i < 83; i++) {
+    container.innerHTML += `<div class="squares-2"></div>`;
+  }
+}
+squares1();
