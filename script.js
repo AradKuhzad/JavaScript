@@ -278,6 +278,7 @@ squares5();
 function practwhile() { 
 let repeat = 5;
    while (repeat <= 10) {
+      console.log("Hello World!");
       repeat++;
   }
 }
