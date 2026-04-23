@@ -254,7 +254,7 @@ function squares3() {
     container.innerHTML += `<div class="squares-4"></div>`;
   }
 }
-squares3()
+squares3();
 
 function squares4() {
   let container = document.getElementById("squares-5");
