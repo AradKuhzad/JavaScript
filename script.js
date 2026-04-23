@@ -275,3 +275,7 @@ function squares5() {
 squares5();
 
 
+function practwhile() { 
+}
+practwhile();
+
