@@ -276,6 +276,7 @@ squares5();
 
 
 function practwhile() { 
+let repeat = 5;
 }
 practwhile();
 
