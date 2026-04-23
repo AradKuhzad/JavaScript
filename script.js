@@ -263,7 +263,7 @@ function squares4() {
     container.innerHTML += `<div class="squares-5"></div>`;
   }
 }
-squares4()
+squares4();
 
 function squares5() {
   let container = document.getElementById("squares-6");
