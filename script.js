@@ -272,5 +272,6 @@ function squares5() {
     container.innerHTML += `<div class="squares-6"></div>`;
   }
 }
-squares5()
+squares5();
+
 
