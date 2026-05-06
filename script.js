@@ -285,6 +285,9 @@ practwhile();
 
 /*
 function rulertest() {
+  let ruler = document.getElementsByClassName("rulerpage")[0];
+  let counter = 1;
+  do {
 rulertest();
 */
 
