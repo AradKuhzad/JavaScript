@@ -110,7 +110,12 @@ body {
     gap: 4px;
   }
   
+
+  .column-long-content {
+  }
+
   .column-short {
+    display: flex;
   }
 
   .column-short-content {
