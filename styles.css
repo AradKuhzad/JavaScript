@@ -111,6 +111,7 @@ body {
   }
   
   .column-long {
+    display: flex;
   }
 
   .column-long-content {
