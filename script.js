@@ -274,7 +274,6 @@ function squares5() {
 }
 squares5();
 
-
 function practwhile() { 
 let repeat = 5;
    while (repeat <= 10) {
@@ -284,6 +283,8 @@ let repeat = 5;
 }
 practwhile();
 
-
-
+/*
+function rulertest() {
+rulertest();
+*/
 
