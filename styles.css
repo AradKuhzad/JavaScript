@@ -112,6 +112,7 @@ body {
   
   .column-long {
     display: flex;
+    margin-right: 4px;
   }
 
   .column-long-content {
