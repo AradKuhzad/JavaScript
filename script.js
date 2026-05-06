@@ -288,6 +288,9 @@ function rulertest() {
   let ruler = document.getElementsByClassName("rulerpage")[0];
   let counter = 1;
   do {
+    counter++
+  } while (counter <= 12);
+}
 rulertest();
 */
 
