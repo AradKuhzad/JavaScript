@@ -110,6 +110,8 @@ body {
     gap: 4px;
   }
   
+  .column-long {
+  }
 
   .column-long-content {
     border: 2px solid rgb(13, 17, 23);
