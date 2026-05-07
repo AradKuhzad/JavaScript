@@ -130,3 +130,6 @@ body {
     height: 6px;
   }
 
+  .number-ruler {
+    display: flex;
+  }
