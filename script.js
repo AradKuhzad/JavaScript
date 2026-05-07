@@ -301,7 +301,8 @@ function rulertest() {
   let NumRul = document.querySelector(".number-ruler");
   let NumRulvalue = 1;
   do {
+    NumRulvalue++;
+  } while (NumRulvalue <= 31);
 }
 rulertest();
-*/
 
