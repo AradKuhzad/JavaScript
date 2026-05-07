@@ -301,6 +301,8 @@ function rulertest() {
   let NumRul = document.querySelector(".number-ruler");
   let NumRulvalue = 1;
   do {
+    let numberDiv = document.createElement("div");
+    numberDiv.classList.add("number-ruler");
     NumRulvalue++;
   } while (NumRulvalue <= 31);
 }
