@@ -297,7 +297,8 @@ function rulertest() {
     ruler.appendChild(shortClone);
 
     counter++
-  } while (counter <= 12);
+  } while (counter <= 35);
+  let NumRul = document.querySelector(".number-ruler");
 }
 rulertest();
 */
