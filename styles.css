@@ -103,6 +103,9 @@ body {
 
 
   .rulerpage {
+  }
+
+  .rulerpage {
     position: relative;
     display: flex;
     flex-direction: row;
