@@ -283,9 +283,11 @@ let repeat = 5;
 }
 practwhile();
 
-/*
+
 function rulertest() {
   let ruler = document.getElementsByClassName("rulerpage")[0];
+  let longCol = ruler.querySelector(".column-long");
+  let shortCol = ruler.querySelector(".column-short");
   let counter = 1;
   do {
     counter++
