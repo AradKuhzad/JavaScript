@@ -299,6 +299,8 @@ function rulertest() {
     counter++
   } while (counter <= 35);
   let NumRul = document.querySelector(".number-ruler");
+  let NumRulvalue = 1;
+  do {
 }
 rulertest();
 */
