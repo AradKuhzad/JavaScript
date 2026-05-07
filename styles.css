@@ -103,6 +103,7 @@ body {
 
 
   .rulerpage {
+    display: flex;
   }
 
   .rulerpage {
