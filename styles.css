@@ -122,10 +122,11 @@ body {
 
   .column-short {
     display: flex;
+    margin-right: 4px;
   }
 
   .column-short-content {
     border: 2px solid rgb(13, 17, 23);
-    height: 8px;
+    height: 6px;
   }
 
