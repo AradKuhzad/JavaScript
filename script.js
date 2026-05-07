@@ -303,8 +303,9 @@ function rulertest() {
   do {
     let numberDiv = document.createElement("div");
     numberDiv.classList.add("number-ruler");
+    numberDiv.textContent = NumRulvalue;
+    NumRul.appendChild(numberDiv);
     NumRulvalue++;
   } while (NumRulvalue <= 31);
 }
 rulertest();
-
