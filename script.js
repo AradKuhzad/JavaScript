@@ -290,6 +290,9 @@ function rulertest() {
   let shortCol = ruler.querySelector(".column-short");
   let counter = 1;
   do {
+    let longClone = longCol.cloneNode(true);
+    let shortClone = shortCol.cloneNode(true);
+
     counter++
   } while (counter <= 12);
 }
