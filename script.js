@@ -293,6 +293,9 @@ function rulertest() {
     let longClone = longCol.cloneNode(true);
     let shortClone = shortCol.cloneNode(true);
 
+    ruler.appendChild(longClone);
+    ruler.appendChild(shortClone);
+
     counter++
   } while (counter <= 12);
 }
