@@ -132,4 +132,6 @@ body {
 
   .number-ruler {
     display: flex;
+    flex-direction: row;
+    margin-right: 14.2px;
   }
