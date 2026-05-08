@@ -143,7 +143,10 @@ body {
     margin: -1;
   }
   .number-ruler10-31 {
+    display: flex;
     flex-direction: row;
     gap: 10px;
     margin: -1px;
   }
+
+  .content-number-ruler {
