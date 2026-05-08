@@ -160,4 +160,6 @@ body {
     width: min-content;
     padding: 6px 4px 25px;
     align-items: center;
+    border-radius: 5px;
+    background-color: #efe040;
   }
