@@ -310,5 +310,7 @@ function rulertest() {
 
   let NumRUl2 = document.querySelector(".number-ruler10-31");
   let NumRulvalue2 = 10;
+  do {
+    let numberDiv2 = document.createElement("div");
 }
 rulertest();
