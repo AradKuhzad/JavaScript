@@ -316,5 +316,6 @@ function rulertest() {
     numberDiv2.textContent = NumRulvalue2;
     NumRUl2.appendChild(numberDiv2);
     NumRulvalue2++;
+  } while (NumRulvalue2 <= 36);
 }
 rulertest();
