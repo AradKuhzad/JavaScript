@@ -306,6 +306,7 @@ function rulertest() {
     numberDiv.textContent = NumRulvalue;
     NumRul.appendChild(numberDiv);
     NumRulvalue++;
-  } while (NumRulvalue <= 31);
+  } while (NumRulvalue <= 9);
+
 }
 rulertest();
