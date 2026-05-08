@@ -158,4 +158,6 @@ body {
   .contentrulerpage {
     border: 1px solid rgb(13, 17, 23);
     width: min-content;
+    padding: 6px 4px 25px;
+    align-items: center;
   }
