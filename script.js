@@ -314,5 +314,7 @@ function rulertest() {
     let numberDiv2 = document.createElement("div");
     numberDiv2.classList.add("number-ruler10-31");
     numberDiv2.textContent = NumRulvalue2;
+    NumRUl2.appendChild(numberDiv2);
+    NumRulvalue2++;
 }
 rulertest();
