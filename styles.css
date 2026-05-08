@@ -150,3 +150,10 @@ body {
   }
 
   .content-number-ruler {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .contentrulerpage {
+  }
