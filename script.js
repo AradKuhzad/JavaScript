@@ -334,6 +334,8 @@ function NumberLoop() {
     if (b === 4) {
       break;
     }
+    console.log(b);
+  }
 
 }
 Looptestc();
