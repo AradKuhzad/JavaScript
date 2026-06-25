@@ -336,6 +336,8 @@ function NumberLoop() {
     }
     console.log(b);
   }
+  console.log("break");
+}
 
 }
 Looptestc();
