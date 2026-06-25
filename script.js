@@ -338,7 +338,9 @@ function NumberLoop() {
   }
   console.log("break");
 }
+NumberLoop();
 
+function Looptestc() {
 }
 Looptestc();
 
