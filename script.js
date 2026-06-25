@@ -321,6 +321,8 @@ function rulertest() {
 rulertest();
 
 
+function NumberLoop() {
+  for ( let n = 1; n <= 8; n++ ) {
   }
 
 }
