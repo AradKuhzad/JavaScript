@@ -344,7 +344,8 @@ function Looptestc() {
   for ( let i = 0; i <= 8; i++) {
     if (i % 2 === 0) {
       continue;
-}
+    }
+  }
 Looptestc();
 
 //file:///home/arad/Downloads/javascript_loops_interactive.html
