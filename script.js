@@ -327,6 +327,8 @@ function NumberLoop() {
   }
   let x = 1;
   while ( x <= 3) {
+    console.log("Hello");
+    x++;
   }
 
 }
