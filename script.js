@@ -321,6 +321,9 @@ function rulertest() {
 rulertest();
 
 
+  }
+
+}
 Looptestc();
 
 //file:///home/arad/Downloads/javascript_loops_interactive.html
