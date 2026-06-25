@@ -323,6 +323,10 @@ rulertest();
 
 function NumberLoop() {
   for ( let n = 1; n <= 8; n++ ) {
+    console.log("Number:" + n)
+  }
+  let x = 1;
+  while ( x <= 3) {
   }
 
 }
