@@ -345,7 +345,10 @@ function Looptestc() {
     if (i % 2 === 0) {
       continue;
     }
+    console.log(i);
   }
+
+}
 Looptestc();
 
 //file:///home/arad/Downloads/javascript_loops_interactive.html
