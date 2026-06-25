@@ -330,6 +330,10 @@ function NumberLoop() {
     console.log("Hello");
     x++;
   }
+  for ( let b = 0; b <= 10; b++) {
+    if (b === 4) {
+      break;
+    }
 
 }
 Looptestc();
