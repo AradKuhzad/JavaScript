@@ -360,5 +360,8 @@ function looptestCflow() {
       console.log( "found it" + nums[i] );
       break;
     }
+    else if ( nums[i] % 2 === 0 ) {
+  }
+}
 looptestCflow();
 
