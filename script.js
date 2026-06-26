@@ -381,4 +381,7 @@ function testStrings() {
   //p2
   console.log(name.trimStart());
   console.log(name.trimEnd()); 
+  console.log(name.slice(0, 5)); //essential
+  console.log(name.slice(3)); //essential
+  console.log(name.slice(-6)); //essential
 
