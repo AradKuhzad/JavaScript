@@ -404,4 +404,7 @@ function testStrings() {
   console.log(bb.includes("Jama")); //essential
   console.log(bb.startsWith("J")); //It's not bad to learn
   console.log(bb.endsWith("t")); //It's not bad to learn
+  console.log(bb.repeat(2));
+}
+testStrings();
 
