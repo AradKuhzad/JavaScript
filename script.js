@@ -352,3 +352,5 @@ function Looptestc() {
 Looptestc();
 
 function looptestCflow() {
+  const nums = [3, 7, 8, 1, 9, 2, 4];
+  let target = 9;
