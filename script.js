@@ -393,4 +393,7 @@ function testStrings() {
   let s = "Mango, Apple, Strawberry";
   console.log(s.split("a")); //essential
   console.log(["Mango","Apple"].join("|")); //It's not bad to learn
+  console.log(s.split("").reverse().join("")); 
+  //p5
+  console.log("Hi".padEnd(12, "!")); //It's not bad to learn
 
