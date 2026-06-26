@@ -390,4 +390,7 @@ function testStrings() {
   console.log(a.replace("book", "notebook")); //essential
   console.log(a.replaceAll("book", "notebook")); //essential
   //p4
+  let s = "Mango, Apple, Strawberry";
+  console.log(s.split("a")); //essential
+  console.log(["Mango","Apple"].join("|")); //It's not bad to learn
 
