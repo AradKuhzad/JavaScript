@@ -384,4 +384,7 @@ function testStrings() {
   console.log(name.slice(0, 5)); //essential
   console.log(name.slice(3)); //essential
   console.log(name.slice(-6)); //essential
+  console.log(name.substring(0, 4));
+  //p3
+  let a = "I've a book and book";
 
