@@ -378,4 +378,7 @@ function testStrings() {
   console.log(name.toUpperCase()); //essential
   console.log(name.toLowerCase()); //essential
   console.log(name.trim()); //essential
+  //p2
+  console.log(name.trimStart());
+  console.log(name.trimEnd()); 
 
