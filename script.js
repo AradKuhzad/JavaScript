@@ -354,3 +354,7 @@ Looptestc();
 function looptestCflow() {
   const nums = [3, 7, 8, 1, 9, 2, 4];
   let target = 9;
+
+  for ( let i = 0; i < nums.length; i++) {
+    if ( nums[i] === target) {
+      console.log( "found it" + nums[i] );
