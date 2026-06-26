@@ -360,3 +360,5 @@ function looptestCflow() {
       console.log( "found it" + nums[i] );
       break;
     }
+looptestCflow();
+
