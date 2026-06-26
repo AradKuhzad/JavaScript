@@ -368,3 +368,8 @@ function looptestCflow() {
 }
 looptestCflow();
 
+function testStrings() {
+  //p1 
+  let name = "JavaScript";
+
+
