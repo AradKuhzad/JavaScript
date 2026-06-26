@@ -361,7 +361,8 @@ function looptestCflow() {
       break;
     }
     else if ( nums[i] % 2 === 0 ) {
-  }
+      continue;
+    }
 }
 looptestCflow();
 
