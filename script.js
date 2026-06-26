@@ -401,4 +401,7 @@ function testStrings() {
   let bb = "JavaScript"; 
   console.log(bb.charAt(4)); //It's not bad to learn
   console.log(bb.at(-1)); //It's not bad to learn
+  console.log(bb.includes("Jama")); //essential
+  console.log(bb.startsWith("J")); //It's not bad to learn
+  console.log(bb.endsWith("t")); //It's not bad to learn
 
