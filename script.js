@@ -363,6 +363,8 @@ function looptestCflow() {
     else if ( nums[i] % 2 === 0 ) {
       continue;
     }
+    console.log( "odd number" + nums[i] );
+  }
 }
 looptestCflow();
 
