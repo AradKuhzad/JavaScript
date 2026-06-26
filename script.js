@@ -387,4 +387,7 @@ function testStrings() {
   console.log(name.substring(0, 4));
   //p3
   let a = "I've a book and book";
+  console.log(a.replace("book", "notebook")); //essential
+  console.log(a.replaceAll("book", "notebook")); //essential
+  //p4
 
