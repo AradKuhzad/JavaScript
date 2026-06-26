@@ -396,4 +396,6 @@ function testStrings() {
   console.log(s.split("").reverse().join("")); 
   //p5
   console.log("Hi".padEnd(12, "!")); //It's not bad to learn
+  console.log("1".padStart(6)); //It's not bad to learn
+  //p6
 
