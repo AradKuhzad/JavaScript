@@ -398,4 +398,7 @@ function testStrings() {
   console.log("Hi".padEnd(12, "!")); //It's not bad to learn
   console.log("1".padStart(6)); //It's not bad to learn
   //p6
+  let bb = "JavaScript"; 
+  console.log(bb.charAt(4)); //It's not bad to learn
+  console.log(bb.at(-1)); //It's not bad to learn
 
