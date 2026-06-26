@@ -372,4 +372,7 @@ function testStrings() {
   //p1 
   let name = "JavaScript";
 
+  console.log(name.length); //essential
+  console.log(name[0]);
+  console.log(name[name.length-1]);
 
