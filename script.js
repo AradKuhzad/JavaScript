@@ -411,3 +411,8 @@ testStrings();
 function testNumbers() {
   console.log(Number.MAX_SAFE_INTEGER);
   console.log(Number.MIN_SAFE_INTEGER);
+  console.log(Number.NEGATIVE_INFINITY);  
+  console.log(Number.NaN);
+  console.log(Number.EPSILON);
+}
+testNumbers();
