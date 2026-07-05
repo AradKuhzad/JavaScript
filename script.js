@@ -419,5 +419,3 @@ function testNumbers() {
   console.log(Number.EPSILON);
 }
 testNumbers();
-
-
