@@ -423,6 +423,7 @@ function testNumbers() {
   console.log(isFinite(10)); //true
   console.log(isNaN(NaN)); //true
   console.log(Number.parseInt("42px")); //42
+  console.log(Number.parseFloat("3.14m")); //3.14
 }
 testNumbers();
 
