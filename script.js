@@ -422,6 +422,7 @@ function testNumbers() {
   console.log(Number.isInteger(5.5)); //false
   console.log(isFinite(10)); //true
   console.log(isNaN(NaN)); //true
+  console.log(Number.parseInt("42px")); //42
 }
 testNumbers();
 
