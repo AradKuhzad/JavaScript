@@ -420,6 +420,7 @@ function testNumbers() {
   console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON); //true
   console.log(Number.isInteger(5)); //true
   console.log(Number.isInteger(5.5)); //false
+  console.log(isFinite(10)); //true
 }
 testNumbers();
 
