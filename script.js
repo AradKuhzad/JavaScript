@@ -421,6 +421,7 @@ function testNumbers() {
   console.log(Number.isInteger(5)); //true
   console.log(Number.isInteger(5.5)); //false
   console.log(isFinite(10)); //true
+  console.log(isNaN(NaN)); //true
 }
 testNumbers();
 
