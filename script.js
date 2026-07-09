@@ -417,6 +417,7 @@ function testNumbers() {
   console.log(Number.NEGATIVE_INFINITY);  
   console.log(Number.NaN);
   console.log(Number.EPSILON);
+  console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON); //true
 }
 testNumbers();
 
