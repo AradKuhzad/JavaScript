@@ -437,3 +437,6 @@ function testObjects() {
     isEmployed: true,
     sayHello: function() {console.log("Hi, My name is " + this.FirstName + " " + this.LastName + " " + "and I'm " + this.Age + " years old")}
 };
+person.sayHello();
+};
+testObjects();
