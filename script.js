@@ -429,3 +429,5 @@ testNumbers();
 
 
 
+function testObjects() {
+  let person = {
