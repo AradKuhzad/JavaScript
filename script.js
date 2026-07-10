@@ -433,3 +433,5 @@ function testObjects() {
   let person = {
     FirstName: "John",
     LastName: "Doe",
+    Age: 30,
+    isEmployed: true,
