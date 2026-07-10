@@ -431,3 +431,5 @@ testNumbers();
 
 function testObjects() {
   let person = {
+    FirstName: "John",
+    LastName: "Doe",
