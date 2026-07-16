@@ -1,54 +1,56 @@
 body {
-    background-color: rgb(29, 42, 53);
+  background-color: rgb(29, 42, 53);
 }
 
 #change-fontsize {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 #show-text {
-    display: none;
+  display: none;
 }
 
 #picture-lamp {
-    cursor: pointer;
-    width: 130px;
-    height: 180px;
+  cursor: pointer;
+  width: 130px;
+  height: 180px;
 }
 
 #text-Clicktuof {
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    border-radius: 50px;
-    padding: 5px;
-    border: 1px solid rgb(63, 44, 44);
-    background-color: rgb(189, 186, 184);
-    transition: 0.3s;
+  font-size: 16px;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid rgb(63, 44, 44);
+  background-color: rgb(189, 186, 184);
+  transition: 0.3s;
 }
 #text-Clicktuof:hover {
-    background-color: rgb(159, 156, 154);
+  background-color: rgb(159, 156, 154);
 }
 
 .on {
-    background-color: rgb(255, 154, 91) !important;
+  background-color: rgb(255, 154, 91) !important;
 }
 
 .on:hover {
-    background-color: rgb(218, 131, 77) !important;
+  background-color: rgb(218, 131, 77) !important;
 }
 
 .off {
-    background-color: rgb(189, 186, 184) !important;
+  background-color: rgb(189, 186, 184) !important;
 }
 
 .off:hover {
-    background-color: rgb(159, 156, 154) !important;
+  background-color: rgb(159, 156, 154) !important;
 }
 
 .box-squares {
-    display: flex;
-    background-color: rgb(13, 17, 23);
-    width: 100%;
+  display: flex;
+  background-color: rgb(13, 17, 23);
+  width: 100%;
 }
 
 #squares,
@@ -57,109 +59,110 @@ body {
 #squares-4,
 #squares-5,
 #squares-6 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
 }
 
 .box-squaresall {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    padding: 10px 5px;
-    gap: 4px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgb(61, 68, 77);
-    background-color: rgb(13, 17, 23);
-    border-radius: 6px;
-    width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 10px 5px;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(61, 68, 77);
+  background-color: rgb(13, 17, 23);
+  border-radius: 6px;
+  width: 1000px;
 }
-  
-  .squares,
-  .squares-2,
-  .squares-3,
-  .squares-4,
-  .squares-5,
-  .squares-6 {
-    display: flex;
-    width: 8px;
-    height: 8px;
-    background-color: #033a16;
-    border-radius: 2px;
-  }
 
-  .cntrbu {
-    font-size: 16px;
-    color: rgb(255, 246, 246);
-    text-align: left;
-    padding-bottom: 4px;
-    padding-left: 2px;
-    width: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  }
+.squares,
+.squares-2,
+.squares-3,
+.squares-4,
+.squares-5,
+.squares-6 {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  background-color: #033a16;
+  border-radius: 2px;
+}
 
+.cntrbu {
+  font-size: 16px;
+  color: rgb(255, 246, 246);
+  text-align: left;
+  padding-bottom: 4px;
+  padding-left: 2px;
+  width: 100%;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
 
-  .rulerpage {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2px;
-  }
+.rulerpage {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2px;
+}
 
-  .rulerpage {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    gap: 4px;
-  }
-  
-  .column-long {
-    display: flex;
-    margin-right: 4px;
-  }
+.rulerpage {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 4px;
+}
 
-  .column-long-content {
-    border: 2px solid rgb(13, 17, 23);
-    height: 12px;
-  }
+.column-long {
+  display: flex;
+  margin-right: 4px;
+}
 
-  .column-short {
-    display: flex;
-    margin-right: 4px;
-  }
+.column-long-content {
+  border: 2px solid rgb(13, 17, 23);
+  height: 12px;
+}
 
-  .column-short-content {
-    border: 2px solid rgb(13, 17, 23);
-    height: 6px;
-  }
+.column-short {
+  display: flex;
+  margin-right: 4px;
+}
 
-  .number-ruler {
-    display: flex;
-    flex-direction: row;
-    gap: 18px;
-    margin: -1;
-  }
-  .number-ruler10-31 {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin: -1px;
-  }
+.column-short-content {
+  border: 2px solid rgb(13, 17, 23);
+  height: 6px;
+}
 
-  .content-number-ruler {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-  }
+.number-ruler {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin: -1;
+}
+.number-ruler10-31 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: -1px;
+}
 
-  .contentrulerpage {
-    border: 1px solid rgb(13, 17, 23);
-    width: min-content;
-    padding: 6px 4px 25px;
-    align-items: center;
-    border-radius: 5px;
-    background-color: #efe040;
-  }
+.content-number-ruler {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.contentrulerpage {
+  border: 1px solid rgb(13, 17, 23);
+  width: min-content;
+  padding: 6px 4px 25px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #efe040;
+}
