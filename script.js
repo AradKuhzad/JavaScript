@@ -13,19 +13,19 @@ function hidetext() {
 function showtext() {
   document.getElementById("show-text").style.display = "block";
 }
-// window.alert ("Hello There!");  
+// window.alert ("Hello There!");
 {
-let x = 5;
-console.log(x);
-console.log([1, 2, 3]);
-console.log({a:1, b:2});
+  let x = 5;
+  console.log(x);
+  console.log([1, 2, 3]);
+  console.log({ a: 1, b: 2 });
 }
 
 function sorttext() {
   let x = 1;
   const fname = "David";
-  document.getElementsByClassName("text-yn")[0].innerHTML = 
-  fname + " is " + x + " years " + " old ";
+  document.getElementsByClassName("text-yn")[0].innerHTML =
+    fname + " is " + x + " years " + " old ";
 }
 sorttext();
 
@@ -35,14 +35,15 @@ function value() {
   y = 3;
   z = x * y;
   document.getElementsByClassName("text-value")[0].innerHTML =
-  "The value of z is " + z;
+    "The value of z is " + z;
 }
 value();
 
 function Sns() {
-  let person = "James", carName = "Mercedes", age = "25";
-  document.getElementById("doe-Specifications").innerHTML = 
-  carName
+  let person = "James",
+    carName = "Mercedes",
+    age = "25";
+  document.getElementById("doe-Specifications").innerHTML = carName;
 }
 Sns();
 
@@ -52,22 +53,20 @@ function xyzepl() {
   const Lname = "Murphy";
   let carcolor = "black";
   console.log(fname + Lname);
-  document.getElementById("Dan-car").innerHTML =
-  carName;
+  document.getElementById("Dan-car").innerHTML = carName;
 }
 xyzepl();
 
 function cnt() {
-  const User = {name: "Dan"};
+  const User = { name: "Dan" };
   User.name = "James";
   console.log(User.name);
-  const cars = ["Fiat", "BMW", "Mercedes"]; 
+  const cars = ["Fiat", "BMW", "Mercedes"];
   cars[1] = "Volvo";
   cars.push("Toyota");
   console.log(cars);
 }
 cnt();
-
 
 function OPors() {
   let x = 4;
@@ -80,9 +79,9 @@ function OPors() {
   console.log(--y);
   console.log(x ** y);
   console.log(x % y);
-  console.log(x *= 5);
-  console.log(y -= 1);
-  console.log(x += 3);
+  console.log((x *= 5));
+  console.log((y -= 1));
+  console.log((x += 3));
   console.log(x == y);
   console.log(x);
   console.log(y);
@@ -94,35 +93,28 @@ function OPors() {
 }
 OPors();
 
-
 function checkAgeCategory() {
   let age = parseInt(document.getElementById("ageInput").value);
   let Category = "";
   if (age >= 0 && age <= 12) {
     Category = "Early years";
-  }
-  else if (age >= 13 && age <= 18) {
+  } else if (age >= 13 && age <= 18) {
     Category = "Youth";
-  } 
-  else if (age >= 19 && age <= 64) {
+  } else if (age >= 19 && age <= 64) {
     Category = "Adults";
-  }
-  else if (age >= 65 && age <= 109) {
+  } else if (age >= 65 && age <= 109) {
     Category = "Older age";
-  }
-  else if (age >= 120) {
+  } else if (age >= 120) {
+    Category = "Your age is invalid!";
+  } else {
     Category = "Your age is invalid!";
   }
-  else {
-    Category = "Your age is invalid!";
-  }
-  document.getElementById("result").innerHTML = 
-  Category;
+  document.getElementById("result").innerHTML = Category;
 }
 
 function exle() {
   let x = 17;
-  let text = (x >= 18) ? "Hi" : "Bye";
+  let text = x >= 18 ? "Hi" : "Bye";
   console.log(text);
 }
 exle();
@@ -132,29 +124,28 @@ function Dateday() {
   let date = new Date().getDay();
   switch (date) {
     case 0:
-    day = "Sunday";
-    break;
+      day = "Sunday";
+      break;
     case 1:
-    day = "Monday";
-    break;
+      day = "Monday";
+      break;
     case 2:
-    day = "Tuesday";
-    break;
+      day = "Tuesday";
+      break;
     case 3:
-    day = "Wednesday";
-    break;
+      day = "Wednesday";
+      break;
     case 4:
-    day = "Thursday";
-    break;
+      day = "Thursday";
+      break;
     case 5:
-    day = "Friday";
-    break;
+      day = "Friday";
+      break;
     case 6:
-    day = "Saturday";
-    break;
+      day = "Saturday";
+      break;
   }
-  document.getElementById("Date").innerHTML = 
-  "Today is " + day;
+  document.getElementById("Date").innerHTML = "Today is " + day;
 }
 Dateday();
 
@@ -162,8 +153,7 @@ function Changepicture() {
   let img = document.getElementById("picture-lamp");
   if (img.src.includes("pic_bulboff.gif")) {
     img.src = "img/pic_bulbon.gif";
-  }
-  else {
+  } else {
     img.src = "img/pic_bulboff.gif";
   }
 }
@@ -182,16 +172,14 @@ function Changepicturebutton() {
   let text = document.getElementById("text-Clicktuof");
   if (img.src.includes("pic_bulboff.gif")) {
     img.src = "img/pic_bulbon.gif";
-    document.getElementById("text-Clicktuof").innerHTML = 
-    "Click to turn off the light.";
+    document.getElementById("text-Clicktuof").innerHTML =
+      "Click to turn off the light.";
     text.classList.remove("off");
     text.classList.add("on");
-
-  }
-  else {
+  } else {
     img.src = "img/pic_bulboff.gif";
-    document.getElementById("text-Clicktuof").innerHTML = 
-    "Click to turn on the light.";
+    document.getElementById("text-Clicktuof").innerHTML =
+      "Click to turn on the light.";
     text.classList.remove("on");
     text.classList.add("off");
   }
@@ -201,15 +189,15 @@ let offon = 0;
 function testswitch1() {
   let lampoff = document.getElementById("picture-lamp");
   switch (offon) {
-  case 0:
-    lampoff.src = "img/pic_bulbon.gif";
-    offon = 1;
-    break;
-  case 1:
-    lampoff.src = "img/pic_bulboff.gif"; 
-  offon = 0;
-  break;
-}
+    case 0:
+      lampoff.src = "img/pic_bulbon.gif";
+      offon = 1;
+      break;
+    case 1:
+      lampoff.src = "img/pic_bulboff.gif";
+      offon = 0;
+      break;
+  }
 }
 
 function testloop() {
@@ -274,15 +262,14 @@ function squares5() {
 }
 squares5();
 
-function practwhile() { 
-let repeat = 5;
-   while (repeat <= 10) {
-      console.log("Hello World!");
-      repeat++;
+function practwhile() {
+  let repeat = 5;
+  while (repeat <= 10) {
+    console.log("Hello World!");
+    repeat++;
   }
 }
 practwhile();
-
 
 function rulertest() {
   let ruler = document.getElementsByClassName("rulerpage")[0];
@@ -296,7 +283,7 @@ function rulertest() {
     ruler.appendChild(longClone);
     ruler.appendChild(shortClone);
 
-    counter++
+    counter++;
   } while (counter <= 35);
   let NumRul = document.querySelector(".number-ruler");
   let NumRulvalue = 1;
@@ -320,17 +307,16 @@ function rulertest() {
 }
 rulertest();
 
-
 function NumberLoop() {
-  for ( let n = 1; n <= 8; n++ ) {
-    console.log("Number:" + n)
+  for (let n = 1; n <= 8; n++) {
+    console.log("Number:" + n);
   }
   let x = 1;
-  while ( x <= 3) {
+  while (x <= 3) {
     console.log("Hello");
     x++;
   }
-  for ( let b = 0; b <= 10; b++) {
+  for (let b = 0; b <= 10; b++) {
     if (b === 4) {
       break;
     }
@@ -341,13 +327,12 @@ function NumberLoop() {
 NumberLoop();
 
 function Looptestc() {
-  for ( let i = 0; i <= 8; i++) {
+  for (let i = 0; i <= 8; i++) {
     if (i % 2 === 0) {
       continue;
     }
     console.log(i);
   }
-
 }
 Looptestc();
 
@@ -355,32 +340,31 @@ function looptestCflow() {
   const nums = [3, 7, 8, 1, 9, 2, 4];
   let target = 9;
 
-  for ( let i = 0; i < nums.length; i++) {
-    if ( nums[i] === target) {
-      console.log( "found it" + nums[i] );
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === target) {
+      console.log("found it" + nums[i]);
       break;
-    }
-    else if ( nums[i] % 2 === 0 ) {
+    } else if (nums[i] % 2 === 0) {
       continue;
     }
-    console.log( "odd number" + nums[i] );
+    console.log("odd number" + nums[i]);
   }
 }
 looptestCflow();
 
 function testStrings() {
-  //p1 
+  //p1
   let name = "JavaScript";
 
   console.log(name.length); //essential
   console.log(name[0]);
-  console.log(name[name.length-1]);
+  console.log(name[name.length - 1]);
   console.log(name.toUpperCase()); //essential
   console.log(name.toLowerCase()); //essential
   console.log(name.trim()); //essential
   //p2
   console.log(name.trimStart());
-  console.log(name.trimEnd()); 
+  console.log(name.trimEnd());
   console.log(name.slice(0, 5)); //essential
   console.log(name.slice(3)); //essential
   console.log(name.slice(-6)); //essential
@@ -392,13 +376,13 @@ function testStrings() {
   //p4
   let s = "Mango, Apple, Strawberry";
   console.log(s.split("a")); //essential
-  console.log(["Mango","Apple"].join("|")); //It's not bad to learn
-  console.log(s.split("").reverse().join("")); 
+  console.log(["Mango", "Apple"].join("|")); //It's not bad to learn
+  console.log(s.split("").reverse().join(""));
   //p5
   console.log("Hi".padEnd(12, "!")); //It's not bad to learn
   console.log("1".padStart(6)); //It's not bad to learn
   //p6
-  let bb = "JavaScript"; 
+  let bb = "JavaScript";
   console.log(bb.charAt(4)); //It's not bad to learn
   console.log(bb.at(-1)); //It's not bad to learn
   console.log(bb.includes("Jama")); //essential
@@ -414,7 +398,7 @@ function testNumbers() {
   console.log(Number.MAX_VALUE);
   console.log(Number.MIN_VALUE);
   console.log(Number.POSITIVE_INFINITY);
-  console.log(Number.NEGATIVE_INFINITY);  
+  console.log(Number.NEGATIVE_INFINITY);
   console.log(Number.NaN);
   console.log(Number.EPSILON);
   console.log(Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON); //true
@@ -427,22 +411,25 @@ function testNumbers() {
 }
 testNumbers();
 
-
-
 function testObjects() {
   let person = {
     FirstName: "John",
     LastName: "Doe",
     Age: 30,
     isEmployed: true,
-    sayHello: function() {console.log("Hi, My name is " + this.FirstName + " " + this.LastName + " " + "and I'm " + this.Age + " years old")}
-};
-person.sayHello();
-};
+    sayHello: function () {
+      console.log(
+        "Hi, My name is " +
+          this.FirstName +
+          " " +
+          this.LastName +
+          " " +
+          "and I'm " +
+          this.Age +
+          " years old",
+      );
+    },
+  };
+  person.sayHello();
+}
 testObjects();
-
-
-
-
-
-
