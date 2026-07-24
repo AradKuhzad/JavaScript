@@ -436,5 +436,9 @@ testObjects();
 
 
 function testDates() {
-  
+  let now = new Date();
+  console.log(now);
+  //
+
 }
+testDates();
