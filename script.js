@@ -439,6 +439,8 @@ function testDates() {
   let now = new Date();
   console.log(now);
   //
+  let d1 = new Date("2026-03-23T12:10:00");
+  console.log(d1);
 
 }
 testDates();
