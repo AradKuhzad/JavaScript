@@ -451,5 +451,7 @@ function testTemporal() {
   console.log(date.year);
   console.log(date.day);
   //
+  let next = date.add({days:8});
+  console.log(next.day);
 } 
 testTemporal();
