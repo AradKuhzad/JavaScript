@@ -456,5 +456,7 @@ function testTemporal() {
   //
   let subt = date.subtract({months:1});
   console.log(subt.month);
+  //
+  console.log(date.until(next));
 } 
 testTemporal();
