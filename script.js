@@ -453,5 +453,8 @@ function testTemporal() {
   //
   let next = date.add({days:8});
   console.log(next.day);
+  //
+  let subt = date.subtract({months:1});
+  console.log(subt.month);
 } 
 testTemporal();
