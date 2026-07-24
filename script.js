@@ -449,6 +449,7 @@ testDates();
 function testTemporal() {
   let date = Temporal.PlainDate.from("2026-03-12");
   console.log(date.year);
+  console.log(date.day);
   //
 } 
 testTemporal();
