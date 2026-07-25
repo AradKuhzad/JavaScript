@@ -460,3 +460,8 @@ function testTemporal() {
   console.log(date.until(next));
 } 
 testTemporal();
+
+function testArrays() {
+  
+}
+testArrays();
