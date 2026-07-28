@@ -462,7 +462,13 @@ function testTemporal() {
 testTemporal();
 
 function testArrays() {
-    
+  const cars = ["BMW", "Mercedes", "Ford"];
+  let addcar = cars[0];
+  cars[3] = "Toyota";
+  let car1 = cars.at(1);
+  console.log(cars);
+  console.log(car1);
 }
 testArrays();
+
 
