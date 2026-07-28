@@ -468,6 +468,10 @@ function testArrays() {
   let car1 = cars.at(1);
   console.log(cars);
   console.log(car1);
+    //
+  const person = ["John", "Doe", 46];
+  typeof person;
+  console.log(person);
 }
 testArrays();
 
