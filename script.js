@@ -475,6 +475,8 @@ function testArrays() {
   //
   cars.push("Fiat");
   cars.pop();
+  cars.unshift("Volvo");
+  cars.shift();
   console.log(cars);
 }
 testArrays();
