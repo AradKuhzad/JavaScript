@@ -466,12 +466,16 @@ function testArrays() {
   let addcar = cars[0];
   cars[3] = "Toyota";
   let car1 = cars.at(1);
-  console.log(cars);
+
   console.log(car1);
     //
   const person = ["John", "Doe", 46];
   typeof person;
   console.log(person);
+  //
+  cars.push("Fiat");
+  cars.pop();
+  console.log(cars);
 }
 testArrays();
 
