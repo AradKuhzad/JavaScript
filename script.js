@@ -483,6 +483,9 @@ function testArrays() {
 }
 testArrays();
 
+function testArrays2() {
+  const fruits = ["Bannana", "Apple", "Orange", "Mango", "Pineapple", "Mango"];
+  let searchf = fruits.indexOf("Apple") + 1;
   let searchf1 = fruits.lastIndexOf("Mango") + 1;
   let tfsearch = fruits.includes("Bannana");
   console.log(searchf);
