@@ -513,3 +513,5 @@ function testArrays4() {
     {type:"BMW", year:2010}
   ];
   cars.sort(function(a, b) {
+     return a.year - b.year; 
+    });
