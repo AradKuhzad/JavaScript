@@ -491,3 +491,6 @@ function testArrays2() {
   console.log(tfsearch);
 }
 testArrays2();
+  console.log(findArrts);
+}
+testArrays3();
