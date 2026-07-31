@@ -508,3 +508,4 @@ testArrays3();
 
 function testArrays4() {
   const cars = [
+    {type:"Saab", year:2001},
