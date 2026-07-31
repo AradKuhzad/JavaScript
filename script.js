@@ -478,8 +478,6 @@ function testArrays() {
   cars.unshift("Volvo");
   cars.shift();
   console.log(cars);
-  // 
-  let posistion = jm
 }
 testArrays();
 
