@@ -519,3 +519,7 @@ function testArrays4() {
 }
 testArrays4();
 
+function testArrays5() {
+
+}
+testArrays5();
