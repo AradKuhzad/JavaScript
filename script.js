@@ -518,8 +518,9 @@ function testArrays4() {
     console.log(cars);
 }
 testArrays4();
-
+/*
 function testArrays5() {
 
 }
 testArrays5();
+*/
