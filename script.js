@@ -483,3 +483,8 @@ function testArrays() {
 }
 testArrays();
 
+  console.log(searchf);
+  console.log(searchf1);
+  console.log(tfsearch);
+}
+testArrays2();
