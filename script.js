@@ -505,3 +505,6 @@ function testArrays3() {
   console.log(findArrts);
 }
 testArrays3();
+
+function testArrays4() {
+  const cars = [
