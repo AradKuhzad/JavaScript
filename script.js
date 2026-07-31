@@ -491,6 +491,9 @@ function testArrays2() {
   console.log(tfsearch);
 }
 testArrays2();
+  function thisFunction(value) {
+    return value > 21;
+  }
   console.log(findArrts);
 }
 testArrays3();
