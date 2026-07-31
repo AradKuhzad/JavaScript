@@ -483,6 +483,8 @@ function testArrays() {
 }
 testArrays();
 
+  let searchf1 = fruits.lastIndexOf("Mango") + 1;
+  let tfsearch = fruits.includes("Bannana");
   console.log(searchf);
   console.log(searchf1);
   console.log(tfsearch);
