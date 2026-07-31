@@ -486,6 +486,8 @@ function testArrays2() {
   let searchf = fruits.indexOf("Apple") + 1;
   let searchf1 = fruits.lastIndexOf("Mango") + 1;
   let tfsearch = fruits.includes("Bannana");
+  let sortf = fruits.toSorted();
+  let reversef = fruits.toReversed();
   console.log(searchf);
   console.log(searchf1);
   console.log(tfsearch);
