@@ -491,6 +491,10 @@ function testArrays2() {
   console.log(tfsearch);
 }
 testArrays2();
+
+function testArrays3() {
+  const Numberfv = [1, 5, 7, 12, 22, 26];
+  let findArrts = Numberfv.find(thisFunction);
   function thisFunction(value) {
     return value > 21;
   }
