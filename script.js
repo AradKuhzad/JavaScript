@@ -515,3 +515,7 @@ function testArrays4() {
   cars.sort(function(a, b) {
      return a.year - b.year; 
     });
+    console.log(cars);
+}
+testArrays4();
+
