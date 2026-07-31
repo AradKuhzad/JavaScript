@@ -489,6 +489,8 @@ function testArrays2() {
   console.log(searchf);
   console.log(searchf1);
   console.log(tfsearch);
+  console.log(sortf);
+  console.log(reversef);
 }
 testArrays2();
 
