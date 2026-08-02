@@ -535,5 +535,7 @@ function testArrays5() {
   const numbers2 = numbers.map(function(value) {
     return value * 2;
   });
+  console.log(numbers2);
+  console.log(numbers);
 testArrays5();
 */
