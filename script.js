@@ -532,5 +532,6 @@ function testArrays5() {
   fruits.forEach(function(value) {
     console.log(value);
   });
+  const numbers2 = numbers.map(function(value) {
 testArrays5();
 */
