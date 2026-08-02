@@ -530,5 +530,7 @@ function testArrays5() {
     console.log(y);
   }
   fruits.forEach(function(value) {
+    console.log(value);
+  });
 testArrays5();
 */
