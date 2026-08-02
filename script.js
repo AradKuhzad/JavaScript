@@ -526,5 +526,8 @@ function testArrays5() {
   for (let x of fruits) {
     console.log(x);
 }
+  for (let y in fruits) {
+    console.log(y);
+  }
 testArrays5();
 */
