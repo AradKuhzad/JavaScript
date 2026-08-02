@@ -523,6 +523,8 @@ function testArrays5() {
   const fruits = ["Banana", "Orange", "Apple", "Mango"];
   const numbers = [4, 12, 15, 30, 45, 50];
   const MyArray = [1, 2, 3];
+  for (let x of fruits) {
+    console.log(x);
 }
 testArrays5();
 */
