@@ -537,5 +537,7 @@ function testArrays5() {
   });
   console.log(numbers2);
   console.log(numbers);
+}
 testArrays5();
-*/
+
+
