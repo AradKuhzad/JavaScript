@@ -525,7 +525,7 @@ function testArrays5() {
   const MyArray = [1, 2, 3];
   for (let x of fruits) {
     console.log(x);
-}
+  }    
   for (let y in fruits) {
     console.log(y);
   }
@@ -537,6 +537,7 @@ function testArrays5() {
   });
   console.log(numbers2);
   console.log(numbers);
+  const newArray = MyArray.flatMap(x => [x, x * (20-5)/3]);
   console.log(newArray);
 }
 testArrays5();
