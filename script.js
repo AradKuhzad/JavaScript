@@ -543,6 +543,8 @@ function testArrays5() {
   let reducet = numbers.reduce(function(total, value) {
     return total + value;
   });
+  console.log(reducet);
+  //
 }
 testArrays5();
 
