@@ -546,6 +546,7 @@ function testArrays5() {
   console.log(reducet);
   //
   const numberscheck = [1, 4, 5, 9, 14, 20];
+    let lengthcheck = numberscheck.every(function(value) {
       return value < 21 ;
     });
     console.log(lengthcheck);
@@ -553,5 +554,4 @@ function testArrays5() {
     
 }
 testArrays5();
-
 
