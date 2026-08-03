@@ -539,7 +539,10 @@ function testArrays5() {
   console.log(numbers);
   const newArray = MyArray.flatMap(x => [x, x * (20-5)/3]);
   console.log(newArray);
+  //
   let reducet = numbers.reduce(function(total, value) {
+    return total + value;
+  });
 }
 testArrays5();
 
