@@ -553,6 +553,8 @@ function testArrays5() {
     //
     let lengthcheck2 = numberscheck.some(function(value) {
       return value < 0;
+    });
+    console.log(lengthcheck2);
     
 }
 testArrays5();
