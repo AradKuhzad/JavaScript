@@ -577,4 +577,6 @@ function testArrays6() {
   //
   const months = ["January", "February", "June", "April"];
 
+  const myMonths = months.with(2, "March");
+
 
