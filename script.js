@@ -589,4 +589,5 @@ function testArrays6() {
   console.log(arr2);
   console.log(arr3);
 }
+testArrays6();
 
