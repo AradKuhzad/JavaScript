@@ -582,4 +582,5 @@ function testArrays6() {
   console.log(months); 
   console.log(myMonths);
   //
+  const arr1 = [1, 2, 3];
 
