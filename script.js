@@ -562,4 +562,6 @@ testArrays5();
 function testArrays6() {
   let text = "ABCDEF";
   let letters = Array.from(text);
+  console.log(letters);
+  //
 
