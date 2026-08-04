@@ -579,4 +579,7 @@ function testArrays6() {
 
   const myMonths = months.with(2, "March");
 
+  console.log(months); 
+  console.log(myMonths);
+  //
 
