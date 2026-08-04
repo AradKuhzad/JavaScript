@@ -575,4 +575,6 @@ function testArrays6() {
     console.log(x);
   }
   //
+  const months = ["January", "February", "June", "April"];
+
 
