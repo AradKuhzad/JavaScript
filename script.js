@@ -572,4 +572,7 @@ function testArrays6() {
   //
   const entriestest = fruits.entries();
   for (let x of entriestest) {
+    console.log(x);
+  }
+  //
 
