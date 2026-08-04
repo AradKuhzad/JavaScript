@@ -564,4 +564,6 @@ function testArrays6() {
   let letters = Array.from(text);
   console.log(letters);
   //
+   const fruits = ["Banana", "Orange", "Apple", "Mango"]
+   const keys = fruits.keys();
 
