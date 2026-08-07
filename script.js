@@ -596,6 +596,13 @@ function Setstest() {
 
 }
 Setstest();
+  /*
+  console.log(mapt.has("Age"));  
+  console.log(mapt.delete("Phone-Number"));
+  console.log(mapt);
+  console.log(mapt.clear());
+  console.log(mapt);
+  */
   console.log(mapt.size);
 }
 Maptest();
