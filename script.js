@@ -596,4 +596,7 @@ function Setstest() {
 
 }
 Setstest();
-*/
+  console.log(mapt.size);
+}
+Maptest();
+
