@@ -596,6 +596,11 @@ function Setstest() {
 
 }
 Setstest();
+    ["Age", 14],
+    ["Country", "Iran"],
+    ["Phone-Number", "09123456789"]
+  ]);
+  mapt.set("Age", 15);
   console.log(mapt);
   console.log(mapt.get("Country"));
   /*
