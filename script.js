@@ -596,6 +596,8 @@ function Setstest() {
 
 }
 Setstest();
+  console.log(mapt);
+  console.log(mapt.get("Country"));
   /*
   console.log(mapt.has("Age"));  
   console.log(mapt.delete("Phone-Number"));
