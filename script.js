@@ -591,8 +591,19 @@ function testArrays6() {
 }
 testArrays6();
 
-/*
+
 function Setstest() {
+  const A = new Set(['a', 'b', 'c']);
+  const B = new Set(['b', 'c', 'd']);
+
+  const union = A.union(B);
+  const intersection = A.intersection(B);
+  const difference = A.difference(B);
+  const symDiff = A.symmetricDifference(B);
+  const isSubset = A.isSubsetOf(B);
+  const isSuperset = A.isSupersetOf(B);
+  const isDisjoint = A.isDisjointFrom(B);
+
   console.log(union);
   console.log(intersection);
   console.log(difference);
