@@ -593,9 +593,19 @@ testArrays6();
 
 /*
 function Setstest() {
-
+  console.log(union);
+  console.log(intersection);
+  console.log(difference);
+  console.log(symDiff);
+  console.log(isSubset);
+  console.log(isSuperset);
+  console.log(isDisjoint);
 }
 Setstest();
+
+function Maptest() {
+  const mapt = new Map([
+    ["Name", "Arad"],
     ["Age", 14],
     ["Country", "Iran"],
     ["Phone-Number", "09123456789"]
