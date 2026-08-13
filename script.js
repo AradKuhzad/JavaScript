@@ -645,4 +645,8 @@ function Iterationstest() {
         return { value: undefined, done: true };
       }
       return { value: x, done: false};
+      },
+    };
+  }
+  const it = Iterationstest();
 
