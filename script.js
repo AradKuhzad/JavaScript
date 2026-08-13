@@ -641,4 +641,6 @@ function Iterationstest() {
     return {
       next: function () {
         x += 10;
+        if (x > 100) {
+        return { value: undefined, done: true };
 
