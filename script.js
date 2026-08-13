@@ -649,4 +649,6 @@ function Iterationstest() {
     };
   }
   const it = Iterationstest();
+  console.log(it.next());
+  console.log(it.next());
 
