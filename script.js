@@ -634,10 +634,9 @@ function Maptest() {
   console.log(mapt.size);
 }
 Maptest();
-/*
-function Iterationstest() {
 
-}
-Iterationstest();
-*/
+
+function Iterationstest() {
+  let x = 0;
+    return {
 
