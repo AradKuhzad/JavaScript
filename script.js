@@ -643,4 +643,6 @@ function Iterationstest() {
         x += 10;
         if (x > 100) {
         return { value: undefined, done: true };
+      }
+      return { value: x, done: false};
 
