@@ -639,4 +639,6 @@ Maptest();
 function Iterationstest() {
   let x = 0;
     return {
+      next: function () {
+        x += 10;
 
