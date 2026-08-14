@@ -652,3 +652,11 @@ function Iterationstest() {
   console.log(it.next());
   console.log(it.next());
 
+
+  function Mathtest() {
+    console.log(Math.round(4.6));
+    console.log(Math.ceil(4.1));
+    console.log(Math.floor(4.9));
+    console.log(Math.trunc(4.6));
+  }
+  Mathtest();
