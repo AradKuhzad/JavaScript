@@ -663,6 +663,7 @@ function Iterationstest() {
     console.log(Math.abs(-12));
     console.log(Math.min(0, 150, 30, -11));
     console.log(Math.max(0, 150, 30, -11));
+    console.log(Math.PI);
   }
   Mathtest();
 
