@@ -664,6 +664,7 @@ function Iterationstest() {
     console.log(Math.min(0, 150, 30, -11));
     console.log(Math.max(0, 150, 30, -11));
     console.log(Math.PI);
+    console.log(Math.floor(Math.random() * 10) + 1);
   }
   Mathtest();
 
