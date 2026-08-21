@@ -673,5 +673,6 @@ function Iterationstest() {
     let text = "I'm Arad";
     let n = text.search(/Arad/i);
     console.log(n);
+    let companies = "Microsoft";
   }
   RegExpp();
