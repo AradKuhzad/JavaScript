@@ -670,6 +670,6 @@ function Iterationstest() {
 
   
   function RegExpp() {
-
+    let text = "I'm Arad";
   }
   RegExpp();
