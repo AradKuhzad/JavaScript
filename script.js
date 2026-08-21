@@ -671,5 +671,6 @@ function Iterationstest() {
   
   function RegExpp() {
     let text = "I'm Arad";
+    let n = text.search(/Arad/i);
   }
   RegExpp();
