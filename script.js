@@ -678,5 +678,6 @@ function Iterationstest() {
     console.log(Changec);
     let colors = "red, white, black, yellow, green, purple, gold, grey";
     let result = colors.match(/green|purple|gold/g);
+    console.log(result);
   }
   RegExpp();
