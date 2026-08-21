@@ -676,5 +676,6 @@ function Iterationstest() {
     let companies = "Microsoft";
     let Changec = companies.replace(/Microsoft/i, "Apple");
     console.log(Changec);
+    let colors = "red, white, black, yellow, green, purple, gold, grey";
   }
   RegExpp();
