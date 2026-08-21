@@ -674,5 +674,6 @@ function Iterationstest() {
     let n = text.search(/Arad/i);
     console.log(n);
     let companies = "Microsoft";
+    let Changec = companies.replace(/Microsoft/i, "Apple");
   }
   RegExpp();
