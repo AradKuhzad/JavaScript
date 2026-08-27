@@ -682,4 +682,9 @@ function Iterationstest() {
   }
   RegExpp();
 
-  
+  /*
+  function datatypes() {
+
+  }
+  datatypes();
+  */
