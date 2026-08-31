@@ -688,6 +688,9 @@ function Iterationstest() {
     console.log(isNaN(x));
   }
   datatypes();
+  
+  function errorstest() {
+    const message = document.getElementById("messagebox");
     message.innerHTML = "";
     let x = document.getElementById("inputbox").value;
     try { 
