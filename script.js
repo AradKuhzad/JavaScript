@@ -703,3 +703,6 @@ function Iterationstest() {
       message.innerHTML = "Input is " + err;
     }
   }
+
+  debuggingtest();
+  */
