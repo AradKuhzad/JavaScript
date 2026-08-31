@@ -682,9 +682,10 @@ function Iterationstest() {
   }
   RegExpp();
 
-  /*
-  function datatypes() {
 
+  function datatypes() {
+    let x = 100 / "Apple";
+    console.log(isNaN(x));
   }
   datatypes();
   */
