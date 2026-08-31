@@ -688,6 +688,8 @@ function Iterationstest() {
     console.log(isNaN(x));
   }
   datatypes();
+      if(x.trim() == "")  throw "empty";
+      if(isNaN(x)) throw "not a number";
       x = Number(x);
       if(x < 5)  throw "too low";
       if(x > 10)   throw "too high";
