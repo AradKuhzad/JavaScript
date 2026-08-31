@@ -688,6 +688,6 @@ function Iterationstest() {
     console.log(isNaN(x));
   }
   datatypes();
-  */
- 
-  
+      message.innerHTML = "Input is " + err;
+    }
+  }
