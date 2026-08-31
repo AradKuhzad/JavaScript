@@ -688,6 +688,7 @@ function Iterationstest() {
     console.log(isNaN(x));
   }
   datatypes();
+    try { 
       if(x.trim() == "")  throw "empty";
       if(isNaN(x)) throw "not a number";
       x = Number(x);
