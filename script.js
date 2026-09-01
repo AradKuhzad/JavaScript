@@ -706,6 +706,8 @@ function Iterationstest() {
 
   /*
   function debuggingtest() {
+    console.warn("This is a warning");
+    console.error("Something went wrong");
 
   }
   debuggingtest();
