@@ -707,6 +707,7 @@ function Iterationstest() {
   /*
   function debuggingtest() {
     document.getElementById("demo").innerHTML = add(10, 5);
+    document.getElementById("demo").innerHTML = add(10, 50);
     document.getElementById("demo").innerHTML = add(10, 500);
     document.getElementById("demo").innerHTML = add(10, 5000);
 
