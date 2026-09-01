@@ -706,6 +706,9 @@ function Iterationstest() {
 
   /*
   function debuggingtest() {
+    document.getElementById("demo").innerHTML = add(10, 5000);
+
+    console.log("HI");
     console.warn("This is a warning");
     console.error("Something went wrong");
 
