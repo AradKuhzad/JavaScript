@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+    function loadTask() {
+      let saved = localStorage.getItem("tasks");
       if (saved !== null) {
         tasks = JSON.parse(saved);
       }
