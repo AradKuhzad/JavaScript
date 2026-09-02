@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+      let text = taskInput.value;
+      if (text === "") {
         return;
       }
       tasks.push(text)
