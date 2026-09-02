@@ -722,6 +722,10 @@ function Iterationstest() {
 
   }
   debuggingtest();
+      if (saved !== null) {
+        tasks = JSON.parse(saved);
+      }
+    }
     loadTask();
     displayTasks();
   }
