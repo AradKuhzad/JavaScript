@@ -727,6 +727,8 @@ function Iterationstest() {
     let count = 0;
     function updateCount() {
     document.getElementById("count").innerHTML = count;
+   }
+   function increaseCount() {
     count++;
     updateCount();
    }
