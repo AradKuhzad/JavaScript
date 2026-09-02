@@ -722,6 +722,9 @@ function Iterationstest() {
 
   }
   debuggingtest();
+      saveTasks();
+      displayTasks();
+    }
     function saveTasks() {
       localStorage.setItem("tasks", JSON.stringify(tasks));
     }
