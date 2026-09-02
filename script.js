@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+    count = 0;
+    updateCount();
    }
    function saveCount() {
     localStorage.setItem("count", count);
