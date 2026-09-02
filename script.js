@@ -726,6 +726,7 @@ function Iterationstest() {
   function ProjectstestW3() {
     let count = 0;
     function updateCount() {
+    document.getElementById("count").innerHTML = count;
     count++;
     updateCount();
    }
