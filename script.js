@@ -722,3 +722,7 @@ function Iterationstest() {
 
   }
   debuggingtest();
+    loadTask();
+    displayTasks();
+  }
+  ToDotest();
