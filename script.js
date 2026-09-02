@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+   }
+   function resetCount() {
     count = 0;
     updateCount();
    }
