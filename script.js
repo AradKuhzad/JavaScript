@@ -722,6 +722,10 @@ function Iterationstest() {
 
   }
   debuggingtest();
+     count = Number(saved); 
+    };
+    updateCount();
+   }
    
 
    window.increaseCount = increaseCount;
