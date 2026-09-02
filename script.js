@@ -722,6 +722,10 @@ function Iterationstest() {
 
   }
   debuggingtest();
+        html +=  "<li>" + tasks[i] +
+        " <button onclick = 'removeTask(" + i + ")'> x </li>"; 
+       }
+       document.getElementById("list").innerHTML = html;
     }  
     function addTask() {
       let taskInput = document.getElementById("task");
