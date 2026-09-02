@@ -722,6 +722,9 @@ function Iterationstest() {
 
   }
   debuggingtest();
+      displayTasks();
+    }
+    function removeTask(i) {
       tasks.splice(i, 1);
       saveTasks();
       displayTasks();
