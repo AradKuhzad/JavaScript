@@ -722,6 +722,9 @@ function Iterationstest() {
 
   }
   debuggingtest();
+
+  function ProjectstestW3() {
+    let count = 0;
     count++;
     updateCount();
    }
