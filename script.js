@@ -722,6 +722,10 @@ function Iterationstest() {
 
   }
   debuggingtest();
+   }
+   function saveCount() {
+    localStorage.setItem("count", count);
+   }
    function loadCount() {
     let saved = localStorage.getItem("count");
     if ( saved !== null ) {
