@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+   window.resetCount = resetCount;
+   window.saveCount = saveCount;
    window.loadCount = loadCount;
    
    loadCount();
