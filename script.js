@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+      taskInput.value = "";
+      saveTasks();
       displayTasks();
     }
     function removeTask(i) {
