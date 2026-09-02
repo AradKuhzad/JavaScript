@@ -722,6 +722,10 @@ function Iterationstest() {
 
   }
   debuggingtest();
+  }
+  ProjectstestW3();
+
+  function ToDotest() {
     function displayTasks() {
       let html = "";
       for (let i = 0; i < tasks.length; i++) {
