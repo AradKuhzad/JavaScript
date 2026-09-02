@@ -763,6 +763,7 @@ function Iterationstest() {
   ProjectstestW3();
 
   function ToDotest() {
+    let tasks = [];
     function displayTasks() {
       let html = "";
       for (let i = 0; i < tasks.length; i++) {
