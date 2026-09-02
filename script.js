@@ -722,6 +722,8 @@ function Iterationstest() {
 
   }
   debuggingtest();
+      displayTasks();
+    }
     function ClearAll() {
       tasks = [];
       saveTasks();
