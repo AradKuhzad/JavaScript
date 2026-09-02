@@ -722,6 +722,9 @@ function Iterationstest() {
 
   }
   debuggingtest();
+   window.loadCount = loadCount;
+   
+   loadCount();
   }
   ProjectstestW3();
 
