@@ -5,7 +5,7 @@
         html +=  "<li>" + tasks[i] +
         " <button onclick = 'removeTask(" + i + ")'> x </li>"; 
        }
-       document.getElementById("list").innerHTML = html;
+       document.getElementById("List").innerHTML = html;
     }  
     function addTask() {
       let taskInput = document.getElementById("task");
