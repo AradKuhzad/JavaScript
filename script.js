@@ -718,7 +718,7 @@ function Iterationstest() {
 
     console.log("HI");
     console.warn("This is a warning");
-    console.error("Something went wrong");
+    //console.error("Something went wrong");
 
   }
   debuggingtest();
