@@ -101,7 +101,7 @@
 
     <br><br>
 
-    <input id="task" placeholder="New task">
+    <input id="task" placeholder="New task" onkeydown="if(event.key === 'Enter') addTask()">
     <button onclick="addTask()">Add</button>
     <ul id="List"></ul>
     <button onclick="ClearAll()">Clear All</button>
