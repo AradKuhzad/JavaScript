@@ -764,5 +764,8 @@ function Iterationstest() {
 
   function EventTest() {
     });
+    box.addEventListener("mouseout", function () {
+      box.innerHTML = "Mouse is out";
+    });
   }
   EventTest();
