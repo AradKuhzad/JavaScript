@@ -763,6 +763,8 @@ function Iterationstest() {
   ProjectstestW3();
 
   function EventTest() {
+    box.addEventListener("mouseover", function () {
+      box.innerHTML = "Mouse is over me!";
     });
     box.addEventListener("mouseout", function () {
       box.innerHTML = "Mouse is out";
