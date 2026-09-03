@@ -763,6 +763,7 @@ function Iterationstest() {
   ProjectstestW3();
 
   function EventTest() {
+    const box = document.getElementById("box");
     box.addEventListener("mouseover", function () {
       box.innerHTML = "Mouse is over me!";
     });
@@ -771,3 +772,11 @@ function Iterationstest() {
     });
   }
   EventTest();
+
+  function EventTest2() {
+    const k = document.getElementById("k");
+    k.addEventListener("keydown", function (event) {
+      document.getElementById("namekey").innerHTML = "You pressed: " + event.key;
+    });
+  }
+  EventTest2(); 
