@@ -781,6 +781,8 @@ function Iterationstest() {
   }
   EventTest2(); 
 
-  
-  
-
+  function WindowTest() {
+    console.log("Browser inner window width: " + window.innerWidth + "px");
+    console.log("Browser inner window height: " + window.innerHeight + "px");
+  }
+  WindowTest();
