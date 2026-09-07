@@ -784,5 +784,7 @@ function Iterationstest() {
   function WindowTest() {
     console.log("Browser inner window width: " + window.innerWidth + "px");
     console.log("Browser inner window height: " + window.innerHeight + "px");
+    console.log("The full URL of this page is:<br>" + window.location.href);
+    console.log("The protocol of this page is " + window.location.protocol);
   }
   WindowTest();
