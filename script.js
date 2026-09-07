@@ -789,6 +789,8 @@ function Iterationstest() {
     console.log("navigator.cookieEnabled is " + navigator.cookieEnabled);
     console.log("Navigator.online is " + navigator.onLine);
     console.log("Navigator.appCodeName is " + navigator.appCodeName);
+  };
+  WindowAPITest();
 
   function Untitledfunctionalert() {
     let text;
