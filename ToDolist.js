@@ -1,4 +1,4 @@
-    let tasks = [];
+    // Ask this question: Why without this: let tasks = []; , Code still run? important!
     function displayTasks() {
       let html = "";
       for (let i = 0; i < tasks.length; i++) {
