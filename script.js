@@ -723,65 +723,7 @@ function Iterationstest() {
   }
   debuggingtest();
 
-  function ProjectstestW3() {
-    let count = 0;
-    function updateCount() {
-    document.getElementById("count").innerHTML = count;
-   }
-   function increaseCount() {
-    count++;
-    updateCount();
-   }
-   function decreaseCount() {
-    count--;
-    updateCount();
-   }
-   function resetCount() {
-    count = 0;
-    updateCount();
-   }
-   function saveCount() {
-    localStorage.setItem("count", count);
-   }
-   function loadCount() {
-    let saved = localStorage.getItem("count");
-    if ( saved !== null ) {
-     count = Number(saved); 
-    };
-    updateCount();
-   }
-   
-
-   window.increaseCount = increaseCount;
-   window.decreaseCount = decreaseCount;
-   window.resetCount = resetCount;
-   window.saveCount = saveCount;
-   window.loadCount = loadCount;
-   
-   loadCount();
-  }
-  ProjectstestW3();
-
-  function EventTest() {
-    const box = document.getElementById("box");
-    box.addEventListener("mouseover", function () {
-      box.innerHTML = "Mouse is over me!";
-    });
-    box.addEventListener("mouseout", function () {
-      box.innerHTML = "Mouse is out";
-    });
-  }
-  EventTest();
-
-  function EventTest2() {
-    const k = document.getElementById("k");
-    k.addEventListener("keydown", function (event) {
-      document.getElementById("namekey").innerHTML = "You pressed: " + event.key;
-    });
-  }
-  EventTest2(); 
-
-  function WindowTest() {
+  function WindowAPITest() {
     console.log("Browser inner window width: " + window.innerWidth + "px");
     console.log("Browser inner window height: " + window.innerHeight + "px");
     console.log("The full URL of this page is:<br>" + window.location.href);
