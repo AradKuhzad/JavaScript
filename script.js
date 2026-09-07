@@ -789,6 +789,8 @@ function Iterationstest() {
     console.log("navigator.cookieEnabled is " + navigator.cookieEnabled);
     console.log("Navigator.online is " + navigator.onLine);
     console.log("Navigator.appCodeName is " + navigator.appCodeName);
+    let text;
+    if (confirm("Press a button!")) {
       text = "You pressed OK!";
     } else {
       text = "You pressed Cancel!"
