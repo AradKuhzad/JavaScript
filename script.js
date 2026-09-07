@@ -786,6 +786,7 @@ function Iterationstest() {
     console.log("Browser inner window height: " + window.innerHeight + "px");
     console.log("The full URL of this page is:<br>" + window.location.href);
     console.log("The protocol of this page is " + window.location.protocol);
+    console.log("Navigator.online is " + navigator.onLine);
     console.log("Navigator.appCodeName is " + navigator.appCodeName);
     
   }
