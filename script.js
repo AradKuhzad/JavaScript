@@ -729,6 +729,8 @@ function Iterationstest() {
     Untitledfunctionalert = Untitledfunctionalert;
   };
 
+      document.getElementById("prompttestPopup").innerHTML = "Hello " + promptv;
+    } else {
       document.getElementById("prompttestPopup").innerHTML = "You cancelled the prompt!";
     };
   };
