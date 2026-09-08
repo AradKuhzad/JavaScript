@@ -729,6 +729,8 @@ function Iterationstest() {
     Untitledfunctionalert = Untitledfunctionalert;
   };
 
+    const promptv = prompt("Enter your name");
+    if (promptv !== null) {
       document.getElementById("prompttestPopup").innerHTML = "Hello " + promptv;
     } else {
       document.getElementById("prompttestPopup").innerHTML = "You cancelled the prompt!";
