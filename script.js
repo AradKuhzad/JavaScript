@@ -740,6 +740,7 @@ function Iterationstest() {
   
   function JSONAPITest() {
     .then(response => response.json())
+    .then(data => {
       console.log(data);
   }
   JSONAPITest();
