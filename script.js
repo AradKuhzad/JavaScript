@@ -738,3 +738,6 @@ function Iterationstest() {
     };
   };
   
+      console.log(data);
+  }
+  JSONAPITest();
