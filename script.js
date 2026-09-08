@@ -729,6 +729,7 @@ function Iterationstest() {
     Untitledfunctionalert = Untitledfunctionalert;
   };
 
+  function Prompttest() {
     const promptv = prompt("Enter your name");
     if (promptv !== null) {
       document.getElementById("prompttestPopup").innerHTML = "Hello " + promptv;
