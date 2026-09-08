@@ -729,4 +729,7 @@ function Iterationstest() {
     Untitledfunctionalert = Untitledfunctionalert;
   };
 
+      document.getElementById("prompttestPopup").innerHTML = "You cancelled the prompt!";
+    };
+  };
   
