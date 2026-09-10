@@ -1,4 +1,4 @@
-fetch("./Website.txt") 
+fetch("Website.txt") 
 .then(function(response) {
     return response.text();
 })
