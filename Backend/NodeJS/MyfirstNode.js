@@ -1,3 +1,5 @@
+const fetchDataPromise = () => {
+  return new Promise((resolve) => {
     setTimeout(() => resolve('Promise resolved!'), 1000);
   });
 };
