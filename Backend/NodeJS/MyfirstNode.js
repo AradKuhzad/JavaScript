@@ -21,3 +21,9 @@ fs.writeFile("../../Frontend/Website.txt", 'Hello', 'utf8', (err) => {
     if (err) throw err;
     console.log("File written successfully");
 })
+
+const fs2 = require('fs')
+fs2.readFile("../../../JAVASCRIPT/README.md", 'utf8', (err, data) => {
+    if (err) throw err;
+    console.log(data)
+})
