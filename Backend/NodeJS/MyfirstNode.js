@@ -10,8 +10,10 @@ async function getData() {
 }
 
 getData();
+
 const fs = require('fs');
 fs.readFile('../../Frontend/Website.txt', 'utf8', (err, data) => {
+  if (err) throw err;
   console.log(data);
 });
 
