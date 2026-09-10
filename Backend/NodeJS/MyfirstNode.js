@@ -1,3 +1,5 @@
+    setTimeout(() => resolve('Promise resolved!'), 1000);
+  });
 };
 
 async function getData() {
