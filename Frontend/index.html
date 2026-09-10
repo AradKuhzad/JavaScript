@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="loadingcontent">
+    <img id="loadingpage" src="img/loading.gif">
+  </div>
+
+    <div class="allcontent">
+    <h1>My First JavaScript</h1> <!--1-->
+    <button type="button" onclick="ShowDate()">
+        Click me to display Date and Time.
+    </button>
+    <p id="demo"></p> <!--2-->
+    <button type="button" onclick="Show()">
+    Click me!
+    </button>
+    <p id="showmessage"></p><!--3-->
+    <p id="change-fontsize">JavaScript can change the style of an HTML element.</p><!--5-->
+    <button type="button" onclick="changefont()">
+        Click me!
+    </button>
+    <button type="button" onclick="hidetext()"><!--6-->
+        Click me and Hide the text below. 
+    </button>
+    <p id="hide-text">JavaScript can hide text</p><!--7-->
+    <button type="button" onclick="showtext()">
+        Click me and Show the text below. 
+    </button>
+    <p id="show-text">JavaScript can show text</p><!--8-->
+    <button onclick="window.print()">Click me to print this page!</button><!--9-->
+    <p class="text-yn"></p><!--10-->
+    <p class="text-value"></p><!--11-->
+    <p id="doe-Specifications"></p><!--12-->
+    <p id="Dan-car"></p><!--13-->
+    <input type="number" id="ageInput" placeholder="Enter your age"><!--14-->
+    <button onclick="checkAgeCategory()">Check the age group</button>
+    <p id="result"></p>
+    <p id="Date"></p><!--15-->
+
+
+    <img id="picture-lamp" src="img/pic_bulboff.gif" onclick="Changepicture()"><!--4-->
+    <br><br>
+    <input type="range" id="brightnessSlider" min ="0" max ="200" value="100"></input>
+    <br><br>
+    <button id="text-Clicktuof" onclick="Changepicturebutton()">Click to turn on the light.</button>
+    <br><br>
+    <button id="text-Clicktuof1" onclick="testswitch1()">Click to turn on the light.</button>
+    <button id="text-Clicktuon" onclick="testswitch1()">Click to turn off the light.</button>
+
+    <div class="box-squaresall">
+        <div class="cntrbu">contributions List</div>
+    <div class="box-squares">
+        <div id="squares"></div>
+        </div>
+        <div class="box-squares">
+        <div id="squares-2"></div>
+        </div>
+        <div class="box-squares">
+        <div id="squares-3"></div>
+        </div>
+        <div class="box-squares">
+        <div id="squares-4"></div>
+        </div>
+        <div class="box-squares">
+        <div id="squares-5"></div>
+        </div>
+        <div class="box-squares">
+        <div id="squares-6"></div>
+        </div>
+    </div>
+
+    <p id="repeatp"></p>
+
+
+    <main class="contentrulerpage">
+        <div class="content-number-ruler">
+        <div class="number-ruler"></div>
+        <div class="number-ruler10-31"></div>
+    </div>
+    <div class="rulerpage">
+        <div class="column-long">
+            <div class="column-long-content"></div>
+        </div>
+        <div class="column-short">
+            <div class="column-short-content"></div>
+        </div>
+    </div>
+    </main>
+
+    <input id="inputbox" type="text">
+    <button type="button" onclick="errorstest()">Test Input</button>
+    <p id="messagebox"></p>
+
+    <p id="count" style="font-size:40px;">0</p>
+
+    <button onclick="increaseCount()">+</button>
+    <button onclick="decreaseCount()">-</button>
+    <button onclick="resetCount()">Reset</button>
+    <button onclick="saveCount()">Save</button>
+    <button onclick="loadCount()">Load</button>
+
+    <br><br>
+
+    <input id="task" placeholder="New task" onkeydown="if(event.key === 'Enter') addTask()">
+    <button onclick="addTask()">Add</button>
+    <ul id="List"></ul>
+    <button onclick="ClearAll()">Clear All</button>
+
+    <div id="box"
+    style="width:200px;height:100px;padding:16px;border:1px solid #000;">
+    Move mouse over this box!
+    </div>
+
+    <br><br>
+
+    <input id="k" type="text" placeholder="Press a key here!">
+    
+    <p id="namekey"></p>
+
+    <button onclick="Untitledfunctionalert()">Click me</button>
+    <p id="foruntdalert"></p>
+
+    <button onclick="Prompttest()">Try it!</button>
+    <p id="prompttestPopup"></p>
+
+    <p id="FetchAPItest"></p>
+
+</div>
+
+  <!--Maybe, I'll change it! & Rename and fix some of those JavaScript file name! DON'T FORGET THAT !-->
+    <script src="script.js"></script>
+    <script src="JS-SimpleProjects/Loading-page.js"></script>
+    <script src="JS-SimpleProjects/FetchAPI.js"></script>
+    <script src="JS-SimpleProjects/FetchAPI2.js"></script> 
+    <script src="JS-SimpleProjects/ToDolist.js"></script>
+    <script src="JS-SimpleProjects/MouseDetection.js"></script>
+    <script src="JS-SimpleProjects/NameKey.js"></script>
+    <script src="JS-SimpleProjects/NumberRecognition.js"></script>
+    <script src="JS-SimpleProjects/Untitled.js"></script>
+    <script src="NodeJS/Myfirst.js"></script>
+
+</body>
+</html>
+
+
