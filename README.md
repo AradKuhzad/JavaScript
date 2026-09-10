@@ -7,7 +7,9 @@ The main goal of this project is to improve web design skills and experiment wit
 
 - HTML 
 - CSS
-- JavaScript 
+- JavaScript
+- JSON
+- Node.js
 
 ## 💡 Purpose
 
