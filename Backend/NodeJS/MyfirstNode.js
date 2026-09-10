@@ -10,3 +10,5 @@ async function getData() {
 }
 
 getData();
+    console.log("File written successfully");
+})
