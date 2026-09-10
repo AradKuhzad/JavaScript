@@ -10,6 +10,9 @@ async function getData() {
 }
 
 getData();
+  console.log(data);
+});
+
 fs.writeFile("../../Frontend/Website.txt", 'Hello', 'utf8', (err) => {
     if (err) throw err;
     console.log("File written successfully");
