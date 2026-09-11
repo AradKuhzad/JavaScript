@@ -1,18 +1,19 @@
 # Practice Website
 
-This is a simple practice website built using only **HTML** and **CSS**.  
-The main goal of this project is to improve web design skills and experiment with layouts and styling.
+A simple practice website built with **HTML, CSS, JavaScript, JSON, and Node.js**.
 
-## 🌐 Programming languages ​​used
+The main purpose of this project is to improve my web development skills, practice building websites, and experiment with different layouts, styles, and functionality.
 
-- HTML 
-- CSS
-- JavaScript
-- JSON
-- Node.js
+## 🌐 Technologies Used
+
+- **HTML** – Website structure
+- **CSS** – Styling and layouts
+- **JavaScript** – Interactive functionality and logic
+- **JSON** – Storing and handling data
+- **Node.js** – Backend and server-side functionality
 
 ## 💡 Purpose
 
-This website is a **practice project** only.  
-It is not intended for production or commercial use — just a way to learn and gain experience.
+This is a **practice project** created for learning and experimentation.
 
+It is not intended for production or commercial use. The goal is to gain practical experience, try new technologies, and improve my web development skills.
