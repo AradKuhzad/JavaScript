@@ -1,3 +1,8 @@
+    "name": "Mari",
+    "email": "mari@example.com"
+  },
+
+  "orders": [
     {
       "id": 1,
       "product": "Laptop",
