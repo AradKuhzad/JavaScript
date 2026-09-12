@@ -1,4 +1,9 @@
     {
+      "id": 2,
+      "product": "Hat",
+      "price": "15$"
+    },
+    {
       "id": 3,
       "product": "Earpod",
       "price": "400$"
