@@ -1,5 +1,8 @@
-{
-    "name": "Arad",
-     "age": 16,
-      "number": "09123456789" 
+    {
+      "id": 3,
+      "product": "Earpod",
+      "price": "400$"
     }
+  ]
+}
+]
