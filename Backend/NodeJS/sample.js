@@ -18,6 +18,8 @@ async function main() {
     console.log(data);    
 }
 main();
+            resolve('Operation completed successfully');
+        } else {
             reject(new Error('Operation faild'));
         }
     }, 1000);
