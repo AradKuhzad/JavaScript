@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 
 async function getUserdata(userID) {
     try {
-        const data = await fs.readFile("../../Frontend/data.json");
+        const data = await fs.readFile("./Frontend/data.json");
         const users = JSON.parse(data);
         const UserData = users.find(item => item.user.id === userID);
 
