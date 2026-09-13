@@ -18,3 +18,5 @@ async function main() {
     console.log(data);    
 }
 main();
+    .catch(error => console.error('Error: ', error.message));
+
