@@ -18,6 +18,7 @@ async function main() {
     console.log(data);    
 }
 main();
+    setTimeout(() => {
         const success = Math.random() > 0.5;
 
         if (success) {
