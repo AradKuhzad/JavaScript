@@ -18,6 +18,9 @@ async function main() {
     console.log(data);    
 }
 main();
+    }, 1000);
+});
+
 myPromis
     .then(result => console.log('Success: ', result))
     .catch(error => console.error('Error: ', error.message));
