@@ -18,6 +18,8 @@ async function main() {
     console.log(data);    
 }
 main();
+
+const myPromis = new Promise((resolve, reject) => {
     setTimeout(() => {
         const success = Math.random() > 0.5;
 
