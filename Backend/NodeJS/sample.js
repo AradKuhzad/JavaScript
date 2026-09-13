@@ -36,5 +36,6 @@ myPromis
     .catch(error => console.error('Error: ', error.message));
 
 http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("Hello there!");
 }).listen(8080);
