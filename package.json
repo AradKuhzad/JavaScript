@@ -1,5 +1,6 @@
 {
   "dependencies": {
     "express": "^5.2.1"
+    "start": "node D:/Documents/src/JavaScript/Backend/NodeJS/sample.js"
   }
 }
