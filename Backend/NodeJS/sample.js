@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 
 async function getUserdata(userID) {
     try {
-        const data = await fs.readFile("./Frontend/data.json");
+        const data = await fs.readFile("../../Frontend/data.json");
         const users = JSON.parse(data);
         const UserData = users.find(item => item.user.id === userID);
 
@@ -18,6 +18,8 @@ async function main() {
     console.log(data);    
 }
 main();
+
+//
 
 const myPromis = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -42,3 +44,5 @@ http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("Hello there!");
 }).listen(8080);
+
+
