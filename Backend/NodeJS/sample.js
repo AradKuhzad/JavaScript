@@ -19,7 +19,6 @@ async function main() {
 }
 main();
 
-//
 
 const myPromis = new Promise((resolve, reject) => {
     setTimeout(() => {
