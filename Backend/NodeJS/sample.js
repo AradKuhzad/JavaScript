@@ -44,6 +44,8 @@ http.createServer((req, res) => {
     res.end("Hello there!");
 }).listen(8080);
 
+writableStream.end();
+
 writableStream.on('finish', () => {
   console.log('All data has been written to the file.');
 });
