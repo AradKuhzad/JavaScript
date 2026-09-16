@@ -43,5 +43,7 @@ http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("Hello there!");
 }).listen(8080);
-
+writableStream.on('error', (err) => {
+  console.error('Error writing to stream:', err);
+});
 
