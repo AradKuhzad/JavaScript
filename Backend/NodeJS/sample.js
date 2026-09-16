@@ -43,6 +43,8 @@ http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("Hello there!");
 }).listen(8080);
+
+writableStream.write('Hello, ');
 writableStream.write('World!');
 writableStream.write('\nWriting to a stream is easy!');
 
