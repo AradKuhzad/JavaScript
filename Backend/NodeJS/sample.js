@@ -44,6 +44,8 @@ http.createServer((req, res) => {
     res.end("Hello there!");
 }).listen(8080);
 
+const writableStream = fs2.createWriteStream('Untitled/output.txt');
+
 writableStream.write('Hello, ');
 writableStream.write('World!');
 writableStream.write('\nWriting to a stream is easy!');
