@@ -43,6 +43,11 @@ http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end("Hello there!");
 }).listen(8080);
+
+writableStream.on('finish', () => {
+  console.log('All data has been written to the file.');
+});
+
 writableStream.on('error', (err) => {
   console.error('Error writing to stream:', err);
 });
