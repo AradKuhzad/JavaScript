@@ -27,7 +27,7 @@ const myPromis = new Promise((resolve, reject) => {
         if (success) {
             resolve('Operation completed successfully');
         } else {
-            reject(new Error('Operation faild'));
+            reject(new Error('Operation failed'));
         }
     }, 1000);
 });
