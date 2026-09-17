@@ -19,7 +19,7 @@ async function main() {
 }
 main();
 
-
+/*
 const myPromis = new Promise((resolve, reject) => {
     setTimeout(() => {
         const success = Math.random() > 0.5;
@@ -35,6 +35,8 @@ const myPromis = new Promise((resolve, reject) => {
 myPromis
     .then(result => console.log('Success: ', result))
     .catch(error => console.error('Error: ', error.message));
+
+*/
 
 /*      
 const http = require('http');
@@ -62,3 +64,4 @@ writableStream.on('error', (err) => {
   console.error('Error writing to stream:', err);
 });
 
+//
