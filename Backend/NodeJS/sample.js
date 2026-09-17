@@ -74,6 +74,9 @@ console.log(buff[15]);
 console.log(buff.length);
 
 //
+
+const readline = require('readline');
+
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
