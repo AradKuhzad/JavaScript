@@ -70,3 +70,7 @@ const buff = Buffer.from('Hello from Node.js!');
 console.log(buff.toString());
 console.log(buff);
 console.log(buff[0]);
+console.log(buff[15]);
+console.log(buff.length);
+
+//
