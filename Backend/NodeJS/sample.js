@@ -65,3 +65,8 @@ writableStream.on('error', (err) => {
 });
 
 //
+
+const buff = Buffer.from('Hello from Node.js!');
+console.log(buff.toString());
+console.log(buff);
+console.log(buff[0]);
