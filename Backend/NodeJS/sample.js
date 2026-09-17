@@ -74,3 +74,7 @@ console.log(buff[15]);
 console.log(buff.length);
 
 //
+
+    console.log(`Hello ${name}!`);
+    rl.close();
+});  
