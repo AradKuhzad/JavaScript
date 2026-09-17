@@ -4,10 +4,7 @@ const app = express();
 //
 app.use(express.json());
 
-let users = [
-  { id: 1, name: 'John Doe', email: 'john@example.com' },
-  { id: 2, name: 'Jane Smith', email: 'jane@example.com' }
-];
+const users = require('../../Frontend/data.json');
 
 //
 app.get('/api/users', (req, res) => {
