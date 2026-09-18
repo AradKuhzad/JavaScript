@@ -11,7 +11,7 @@ The main purpose of this project is to improve my web development skills, practi
 - **JavaScript** – Interactive functionality and logic
 - **JSON** – Storing and handling data
 - **Node.js** – Backend and server-side functionality
-
+- **Postgre.sql**
 ## 💡 Purpose
 
 This is a **practice project** created for learning and experimentation.
